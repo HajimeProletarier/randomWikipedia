@@ -37,8 +37,9 @@
     - Apache と MySQL を起動する
     - MySQL Admin を起動する
     - phpMyAdmin で下記操作を実行する
-    - SQL 文を本リポジトリからダウンロード
-    - ダウンロードした SQL 文をインポート
+    - 本リポジトリの sql/randomwikipedia.sql をダウンロード
+    - randomwikipedia.sql を MariaDB にインポート
+    - (テーブルが存在しないなど設定に問題があれば定義構築してください)
 - XAMPP の root ユーザーはデフォルトだとパスワードが設定されていません。認証情報を変える必要があります。
     - ユーザー名 root 、ホスト名 localhost のユーザーのパスワードを root に変更します。
         - これは脆弱なパスワードなので、任意のものに設定した方が良いです。
