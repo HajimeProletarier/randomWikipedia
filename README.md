@@ -6,6 +6,7 @@
 - [実装について](https://github.com/HajimeProletarier/randomWikipedia/new/master?filename=README.md#%E5%AE%9F%E8%A3%85%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
   
 # これは何？
+![ランダムWikipedia画面](https://github.com/user-attachments/assets/ee453c16-022d-411c-afab-7a50550f2359)
 
 - 「ランダム Wikipedia」は Wikipedia のランダムなページにアクセスし、そのリンクをブックマークできる Web アプリケーションです。
 - 複数のユーザーで使用することが想定されており、アカウント登録とログイン機能があります。
@@ -84,4 +85,4 @@
  
 # フィードバックについて
 
-- 積極的にフィードバックを募集しています！なんでも連絡してください。
+- 積極的にフィードバックを募集しています！X(@r8_w4y)宛てで何でも連絡してください。
