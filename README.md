@@ -1,10 +1,3 @@
-目次
-- [これは何？](https://github.com/HajimeProletarier/randomWikipedia/new/master?filename=README.md#%E3%81%93%E3%82%8C%E3%81%AF%E4%BD%95)
-- [動作環境](https://github.com/HajimeProletarier/randomWikipedia/new/master?filename=README.md#%E5%8B%95%E4%BD%9C%E7%92%B0%E5%A2%83)
-- [環境構築](https://github.com/HajimeProletarier/randomWikipedia/new/master?filename=README.md#%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89)
-- [今後の展望](https://github.com/HajimeProletarier/randomWikipedia/new/master?filename=README.md#%E4%BB%8A%E5%BE%8C%E3%81%AE%E5%B1%95%E6%9C%9B)
-- [実装について](https://github.com/HajimeProletarier/randomWikipedia/new/master?filename=README.md#%E5%AE%9F%E8%A3%85%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
-  
 # これは何？
 ![ランダムWikipedia画面](https://github.com/user-attachments/assets/ee453c16-022d-411c-afab-7a50550f2359)
 
