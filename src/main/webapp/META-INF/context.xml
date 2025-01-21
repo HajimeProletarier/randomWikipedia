@@ -1,16 +1,16 @@
 <Context>
-	<Resource 
-		name="jdbc/randomwikipedia" 
-		auth="Container"
-		type="javax.sql.DataSource" 
-		driverClassName="org.mariadb.jdbc.Driver"
-		url="jdbc:mariadb://localhost:3306/randomwikipedia" 
-		username="root"
-		password="root" 
-		maxTotal="20" 
-		maxIdle="10" 
-		minIdle="5"
-		maxWaitMillis="-1" 
-		validationQuery="SELECT 1" 
-	/>
+    <Resource 
+        name="jdbc/randomwikipedia" 
+        auth="Container"
+        type="javax.sql.DataSource" 
+        driverClassName="com.mysql.cj.jdbc.Driver"
+        url="jdbc:mysql://myjpsmysqlserver.mysql.database.azure.com:3306/randomwikipedia?useSSL=true&requireSSL=true" 
+        username="${DB_USERNAME}"
+        password="${DB_PASSWORD}" 
+        maxTotal="20" 
+        maxIdle="10" 
+        minIdle="5"
+        maxWaitMillis="90" 
+        validationQuery="SELECT 1" 
+    />
 </Context>
