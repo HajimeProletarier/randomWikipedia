@@ -1,16 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Context>
-    <Resource 
-        name="jdbc/randomwikipedia" 
-        auth="Container"
-        type="javax.sql.DataSource" 
-        driverClassName="com.mysql.cj.jdbc.Driver"
-        url="jdbc:mysql://myjpsmysqlserver.mysql.database.azure.com:3306/randomwikipedia?useSSL=true&requireSSL=true" 
-        username="${DB_USERNAME}"
-        password="${DB_PASSWORD}" 
-        maxTotal="20" 
-        maxIdle="10" 
-        minIdle="5"
-        maxWaitMillis="90" 
-        validationQuery="SELECT 1" 
-    />
+    <!-- データベース接続の設定 -->
+    <Resource name="jdbc/randomwikipedia"
+          auth="Container"
+          type="javax.sql.DataSource"
+          maxTotal="30"
+          maxIdle="10"
+          maxWaitMillis="100"
+          username="${DB_USERNAME}"
+          password="${DB_PASSWORD}"
+          driverClassName="com.mysql.cj.jdbc.Driver"
+          url="${DB_URL}"/>
 </Context>
+
+
+
+
