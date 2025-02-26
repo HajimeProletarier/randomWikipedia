@@ -2,17 +2,13 @@
 <Context>
     <!-- データベース接続の設定 -->
     <Resource name="jdbc/randomwikipedia"
-          auth="Container"
-          type="javax.sql.DataSource"
-          maxTotal="30"
-          maxIdle="10"
-          maxWaitMillis="100"
-          username="${DB_USERNAME}"
-          password="${DB_PASSWORD}"
-          driverClassName="com.mysql.cj.jdbc.Driver"
-          url="${DB_URL}"/>
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxTotal="30"
+              maxIdle="10"
+              maxWaitMillis="100"
+              username="${DB_USERNAME}"
+              password="${DB_PASSWORD}"
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}?sslmode=require"/>
 </Context>
-
-
-
-
